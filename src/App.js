@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Color from './components/UseState';
+import States from './components/component2';
+import Price from './components/component3';
+import Conditional from './components/condit';
+import Persons from './components/personal';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Persons name="edwin ngila"/>
+     <States/>
+     <Price/>
+     <Color/>
+     <Conditional/>
     </div>
   );
 }
